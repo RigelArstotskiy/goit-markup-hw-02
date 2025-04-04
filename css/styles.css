@@ -16,17 +16,6 @@
 .button:focus {
   background-color: #404bbf;
 }
-.link > li {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.link > li:hover,
-.linl > li:focus {
-  color: #404bbf;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -38,4 +27,27 @@
 }
 .logo .studio {
   color: #2e2f42;
+}
+.link a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.link a:hover,
+.link a:focus {
+  color: #404bbf;
+}
+.address a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.address a:hover,
+.address a:focus {
+  color: #404bbf;
 }
