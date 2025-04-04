@@ -46,17 +46,16 @@
 .nav_c:focus {
   color: #404bbf;
 }
-.solutions {
-  background-color: #2e2f42;
-}
+/*main*/
 .solutions h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  background-color: #2e2f42;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -65,10 +64,10 @@
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
   background-color: #404bbf;
 }
-/*main*/
