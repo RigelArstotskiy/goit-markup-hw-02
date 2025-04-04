@@ -16,15 +16,16 @@
 .button:focus {
   background-color: #404bbf;
 }
-.link li {
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
-  text-decoration: none;
+.link > li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.link li:hover {
+.link > li:hover,
+.linl > li:focus {
   color: #404bbf;
-  text-decoration: none;
 }
 .logo {
   font-family: "Raleway", sans-serif;
