@@ -1,0 +1,26 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 4%;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.link li {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: none;
+}
+.link li:hover {
+  color: #404bbf;
+  text-decoration: none;
+}
